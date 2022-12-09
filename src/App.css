@@ -1,0 +1,19 @@
+.login {
+  background-image: url("component/img/Thumbnail.png");
+  height: 100vh;
+}
+
+.pr {
+  padding-top: 110px;
+}
+
+.kolom {
+  box-shadow: 2.5px 3px 10px rgba(0, 0, 0, 10);
+  padding: 20px;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(17, 36, 44, 2), rgb(32, 58, 67, 2), rgb(44, 83, 100, 2));
+}
+
+.tombol {
+  width: 100%;
+}

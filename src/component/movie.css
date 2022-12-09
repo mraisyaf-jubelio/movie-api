@@ -1,0 +1,9 @@
+.page {
+  background-color: rgb(10, 7, 27);
+}
+
+.navbar-color {
+  background-color: rgb(61 55 98);
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
