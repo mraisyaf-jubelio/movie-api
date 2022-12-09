@@ -39,8 +39,6 @@ function App() {
                 })
                 .then((res) => {
                   const sessionID = res.data.session_id;
-                  console.log(sessionID);
-
                   localStorage.setItem("sessionId", sessionID);
                   localStorage.setItem("name", values.username);
                   window.location.assign("/movie");
