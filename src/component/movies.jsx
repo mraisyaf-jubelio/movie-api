@@ -40,7 +40,7 @@ const Movie = () => {
         <Row className="justify-content-center gap">
           {movies.map((film, i) => {
             return (
-              <Col sm={4} key={i} className="mt-4 mb-4">
+              <Col md={4} xs={9} key={i} className="mt-4 mb-4">
                 <p className="text-center text-white">ID Film {film.id}</p>
                 <Card style={{ textAlign: "center" }}>
                   <Card.Img variant="top" src={`${process.env.REACT_APP_IMG}${film.poster_path}`} />
