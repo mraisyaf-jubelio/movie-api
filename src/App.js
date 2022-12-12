@@ -57,7 +57,7 @@ function App() {
       <Container className="pr">
         <h1 className="text-white text-center fw-bold">Login</h1>
         <Row className=" justify-content-center p-1">
-          <Col md={4} className="kolom">
+          <Col md={4} xs={11} className="kolom">
             <Form onSubmit={formik.handleSubmit} className="p-3">
               <Form.Group className="mb-3">
                 <Form.Label htmlFor="username" className="text-white">
